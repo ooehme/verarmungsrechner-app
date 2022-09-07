@@ -5,15 +5,13 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">
-                    Der Rechner
+                    <h2>Das kostet die Energiewende</h2>
                 </div>
                 <div class="card-body">
-                    <h2>
-                        Das kostet die Energiewende<br/><sub>Was Sie in Zukunft zahlen - jetzt persönliche Abgabenlast berechnen.</sub>
-                    </h2>
+
                 </div>
-                <div class="card-footer">
-                    <small>work in progress</small>
+                <div class="card-footer text-end text-muted fst-italic">
+                    <small>Was Sie in Zukunft zahlen - jetzt persönliche Abgabenlast berechnen.</small>
                 </div>
             </div>
         </div>
