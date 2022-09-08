@@ -78,7 +78,7 @@
                 
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
-                        <li class="nav-item"><a class="nav-link" href="https://afdchemnitz.de" target="_blank">&copy; AfD Kreisverband Chemnitz</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.afd-chemnitz.de/" target="_blank">&copy; AfD Kreisverband Chemnitz</a></li>
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))

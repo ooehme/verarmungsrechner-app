@@ -18,7 +18,7 @@
         Telefon: 0371 / 666 26 629<br/>
         E-Mail: geschaeftsstelle@afdchemnitz.de
     </p><p>
-        Vorsitzender und verantwortlich für den Inhalt nach Par. 55 Abs. 2 RStV:<br/>
+        Vorsitzender und verantwortlich für den Inhalt nach § 55 II RStV:<br/>
         <address>
             <b>Nico Köhler</b><br/>
             c/o Alternative für Deutschland<br/>
@@ -43,5 +43,7 @@
         Alle Bildrechte der auf dieser Domain verwendeten Bilddateien liegen, sofern nicht gesondert gekennzeichent, ausschließlich beim AfD Kreisverband Chemnitz.
         Alle Bilddateien dürfen nicht ohne ausdrückliche Genehmigung verwendet werden. Anfragen dieser Art sind an den Vorstand des AfD Kreisverbands Chemnitz zu richten.
     </p>
+
+    <i>Für Lothar Lauterbach</i>
 </div>
 @endsection
