@@ -70,6 +70,7 @@
 
         <main class="py-4">
             @yield('content')
+            <p>&nbsp;</p>
         </main>
 
         <nav class="navbar fixed-bottom navbar-expand navbar-light bg-warning shadow-sm">

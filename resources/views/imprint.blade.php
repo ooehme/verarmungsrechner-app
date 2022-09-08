@@ -44,6 +44,14 @@
         Alle Bilddateien dürfen nicht ohne ausdrückliche Genehmigung verwendet werden. Anfragen dieser Art sind an den Vorstand des AfD Kreisverbands Chemnitz zu richten.
     </p>
 
-    <i>Für Lothar Lauterbach</i>
+    <h3>Idee und Konzeption</h3>
+    <p>
+        Lothar Lauterbach mit freundlicher Unterstützung der Junge Alternative Chemnitz
+    </p>
+
+    <h3>Techn. Unterstützung und Umsetzung</h3>
+    <p>
+        Nico Köhler, Oliver Oehme
+    </p>
 </div>
 @endsection
