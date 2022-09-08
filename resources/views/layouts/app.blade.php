@@ -41,7 +41,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-warning shadow-sm">
+        <nav class="navbar sticky-top navbar-expand-md navbar-light bg-warning shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <!-- h1>{{ config('app.name', 'Laravel') }}</h1-->
@@ -52,13 +52,33 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav me-auto">
-
-                    </ul>
-
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/calculator') }}">{{ __('Rechner') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/explanation') }}">{{ __('Erläuterung') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/contact') }}">{{ __('Kontakt') }}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main class="py-4">
+            @yield('content')
+        </main>
+
+        <nav class="navbar fixed-bottom navbar-expand navbar-light bg-warning shadow-sm">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                    <!-- Left Side Of Navbar -->
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a class="nav-link" href="https://afdchemnitz.de" target="_blank">&copy; AfD Kreisverband Chemnitz</a></li>
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
@@ -68,9 +88,9 @@
                             @endif
 
                             @if (Route::has('register'))
-                                <li class="nav-item">
+                                <!-- li class="nav-item">
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                </li>
+                                </li-->
                             @endif
                         @else
                             <li class="nav-item dropdown">
@@ -92,13 +112,22 @@
                             </li>
                         @endguest
                     </ul>
+
+                    <!-- Right Side Of Navbar -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link disabled"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/imprint') }}">{{ __('Impressum') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/privacy') }}">{{ __('Datenschutz') }}</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
-
-        <main class="py-4">
-            @yield('content')
-        </main>
     </div>
 </body>
 </html>
