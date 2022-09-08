@@ -7,18 +7,12 @@
         Diese Internetpräsenz wird betrieben durch
     </p><p>
         Alternative für Deutschland<br/>
-        Kreisverband Chemnitz<br/>
-        Der Vorstand, vertreten durch:<br/>
-        <address>
-            Nico Köhler<br/>
-            Theaterstr. 15<br/>
-            09111 Chemnitz
-        </address>
+        Kreisverband Chemnitz
     </p><p>
         Telefon: 0371 / 666 26 629<br/>
         E-Mail: geschaeftsstelle@afdchemnitz.de
     </p><p>
-        Vorsitzender und verantwortlich für den Inhalt nach § 55 II RStV:<br/>
+        Vorstandsvorsitzender und verantwortlich für den Inhalt nach § 55 II RStV:<br/>
         <address>
             <b>Nico Köhler</b><br/>
             c/o Alternative für Deutschland<br/>

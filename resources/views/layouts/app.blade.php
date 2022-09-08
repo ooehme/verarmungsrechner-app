@@ -15,33 +15,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Bitter:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
-    <style>
-        /*body {
-            font-family: 'Bitter', serif;
-        }*/
-
-        h1, h2, h3, h4, h5, h6 {
-            font-family: 'Barlow Condensed', sans-serif;
-            text-transform:uppercase;
-        }
-
-        .navbar-brand h1 {
-            font-family: 'Barlow Condensed', sans-serif;
-            margin:0;
-            padding:0;
-        }
-
-        .navbar-brand h1 span:first-child {
-            font-weight:600;
-        }
-    </style>
-
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body>
     <div id="app">
-        <nav class="navbar sticky-top navbar-expand-md navbar-light bg-warning shadow-sm">
+        <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-darkblue shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <!-- h1>{{ config('app.name', 'Laravel') }}</h1-->
@@ -73,7 +52,7 @@
             <p>&nbsp;</p>
         </main>
 
-        <nav class="navbar fixed-bottom navbar-expand navbar-light bg-warning shadow-sm">
+        <nav class="navbar fixed-bottom navbar-expand navbar-dark bg-darkblue shadow-sm">
             <div class="container">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 
